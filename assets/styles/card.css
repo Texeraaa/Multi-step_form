@@ -1,0 +1,17 @@
+.card{
+    background-color: var(--branco);
+    border: none;
+    width: 21rem;
+    top: 14%;
+    left: 5%;
+    padding: 1em .5em;
+}
+.card-title{
+    color: var(--azul-marinho);
+    font-weight: 700;
+}
+.card-subtitle{
+    color: var(--cinza-escuro);
+    opacity: 60%;
+    margin: 15px 0 15px;
+}

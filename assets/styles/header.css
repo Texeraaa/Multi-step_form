@@ -11,6 +11,12 @@
     height: 30px;
     border-radius: 50%;
     margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--branco);
 }
 .passos{
     display: flex;
@@ -20,15 +26,14 @@
 }
 .passos_link{
     margin-top: 1px;
-    text-decoration: none;
-    color: var(--branco);
 }
 .ativo{
     background-color: var(--azul-claro);
-    border: var(--azul-claro)
+    border: var(--azul-claro);
+    color: var(--azul-marinho);
 }
 .ativo_link{
-    color: var(--azul-marinho);
+   
 }
 .header_img{
     background-color: black;

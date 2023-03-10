@@ -1,5 +1,6 @@
 @import url(header.css);
 @import url(card.css);
+@import url(formulario.css);
 
 :root{
     --azul-marinho: hsl(213, 96%, 18%);

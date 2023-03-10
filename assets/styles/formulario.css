@@ -1,0 +1,15 @@
+.card-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-form input{
+    border: 1px solid var(--cinza-claro);
+    padding: 10px 10px 10px 20px;
+    margin-bottom: .5em;
+}
+.card-form label{
+    color: var(--azul-marinho);
+    font-weight: 500;
+    margin-top: 1em;
+}

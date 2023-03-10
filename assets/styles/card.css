@@ -1,4 +1,5 @@
 .card{
+    display: none;
     background-color: var(--branco);
     border: none;
     width: 21rem;
@@ -14,4 +15,7 @@
     color: var(--cinza-escuro);
     opacity: 60%;
     margin: 15px 0 15px;
+}
+.card-ativo{
+    display: block;
 }

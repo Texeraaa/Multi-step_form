@@ -1,0 +1,23 @@
+@import url(header.css);
+@import url(card.css);
+
+:root{
+    --azul-marinho: hsl(213, 96%, 18%);
+    --azul-roxeado: hsl(243, 100%, 62%);
+    --azul-pastel: hsl(228, 100%, 84%);
+    --azul-claro: hsl(206, 94%, 87%);
+    --vermelho: hsl(354, 84%, 57%);
+
+    --cinza-escuro: hsl(231, 11%, 63%);
+    --cinza-claro: hsl(229, 24%, 87%);
+    --magnolia: hsl(217, 100%, 97%);
+    --alabaster: hsl(231, 100%, 99%);
+    --branco: hsl(0, 0%, 100%);
+
+    --font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    font-size: 1rem;
+    font-family: var(--font-family);
+}

@@ -1,0 +1,39 @@
+.posicao{
+    position: absolute;
+    top: 20%;
+    left: 24%;
+}
+
+.circulo{
+    border: 1px solid var(--alabaster);
+    color: var(-magnolia);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.passos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.passos_link{
+    margin-top: 1px;
+    text-decoration: none;
+    color: var(--branco);
+}
+.ativo{
+    background-color: var(--azul-claro);
+    border: var(--azul-claro)
+}
+.ativo_link{
+    color: var(--azul-marinho);
+}
+.header_img{
+    background-color: black;
+    height: 0;
+    padding-bottom: 50%;
+    background-image: url(/assets/images/bg-sidebar-mobile.svg);
+    background-size: cover;
+}
